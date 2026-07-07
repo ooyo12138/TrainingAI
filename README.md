@@ -1,4 +1,4 @@
-# trainingAI
+# TrainingAI
 
 这是一个专门用来练习 Codex 深度能力的本地训练环境。
 
