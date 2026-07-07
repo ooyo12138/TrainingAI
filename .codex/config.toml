@@ -1,0 +1,21 @@
+# trainingAI project-level Codex config example.
+# 只有当 Codex 信任并加载项目配置时才会生效。
+
+sandbox_mode = "workspace-write"
+approval_policy = "on-request"
+web_search = "cached"
+
+[agents]
+max_threads = 6
+max_depth = 1
+job_max_runtime_seconds = 900
+
+[mcp_servers.training_page]
+command = "node"
+args = ["C:\\Users\\EDY\\Desktop\\trainingAI\\mcp-servers\\page-control\\server.js"]
+cwd = "C:\\Users\\EDY\\Desktop\\trainingAI"
+startup_timeout_sec = 10
+tool_timeout_sec = 30
+enabled = true
+default_tools_approval_mode = "prompt"
+

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Local Task Board</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="page-header">
+        <div>
+          <h1>Local Task Board</h1>
+          <p>本地任务看板，用来练习 Worktree、Automation、Subagent 和自定义 MCP。</p>
+        </div>
+        <button id="refreshButton" type="button">刷新</button>
+      </header>
+
+      <section class="summary" data-widget="summary" aria-label="任务统计"></section>
+
+      <section class="toolbar" data-widget="filters" aria-label="筛选">
+        <label>
+          状态
+          <select id="statusFilter">
+            <option value="">全部</option>
+            <option value="todo">todo</option>
+            <option value="in_progress">in_progress</option>
+            <option value="blocked">blocked</option>
+            <option value="done">done</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="grid" data-widget="task-list" aria-label="任务列表"></section>
+
+      <section class="report" data-widget="report" aria-label="巡检报告">
+        <h2>Daily Report</h2>
+        <pre id="reportOutput">Loading...</pre>
+      </section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
+

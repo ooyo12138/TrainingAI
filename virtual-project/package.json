@@ -1,0 +1,11 @@
+{
+  "name": "training-ai-local-task-board",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A dependency-free local page for practicing Codex Worktree, Automation, Subagent, and custom MCP workflows.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/run-tests.js"
+  }
+}
+

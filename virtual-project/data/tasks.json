@@ -1,0 +1,39 @@
+[
+  {
+    "id": "1001",
+    "title": "Write onboarding checklist",
+    "owner": "Ava",
+    "status": "todo",
+    "priority": "high",
+    "dueDate": "2026-07-10",
+    "description": "Create a checklist for new teammates joining the project."
+  },
+  {
+    "id": "1002",
+    "title": "Review API error handling",
+    "owner": "Ben",
+    "status": "in_progress",
+    "priority": "medium",
+    "dueDate": "2026-07-12",
+    "description": "Check whether API failures show clear messages."
+  },
+  {
+    "id": "1003",
+    "title": "Fix dashboard empty state",
+    "owner": "Chen",
+    "status": "blocked",
+    "priority": "high",
+    "dueDate": "2026-07-05",
+    "description": "Empty task list should explain what to do next."
+  },
+  {
+    "id": "1004",
+    "title": "Add weekly report template",
+    "owner": "Dana",
+    "status": "done",
+    "priority": "low",
+    "dueDate": "2026-07-03",
+    "description": "Create a short weekly report format for project updates."
+  }
+]
+

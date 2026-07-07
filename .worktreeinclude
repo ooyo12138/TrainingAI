@@ -1,0 +1,6 @@
+# Files listed here are copied into Codex-managed local worktrees when they are ignored by Git.
+# This training project currently has no required ignored local files.
+#
+# Example:
+# .env.local
+
